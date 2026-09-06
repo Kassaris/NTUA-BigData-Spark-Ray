@@ -19,6 +19,30 @@ The evaluation covers:
 * Distributed data processing
 * Multi-node scalability
 
+Beyond implementing the distributed workloads, we conducted a structured experimental evaluation and documented the methodology, benchmark results and conclusions in an accompanying technical report.
+
+ ## Technical Report
+
+As part of the project, we authored a technical mini-paper presenting the experimental methodology, benchmark setup, results and analysis of the Spark–Ray comparison.
+
+Read the full Technical Report (PDF)
+
+The report complements the source code by documenting the complete experimental process:
+
+motivation and background
+Apache Spark and Ray architectures
+experimental cluster setup
+dataset and workload selection
+benchmarking methodology
+PageRank and Triangle Counting experiments
+ETL performance evaluation
+K-Means and Linear Regression experiments
+scalability measurements
+comparative analysis of Spark and Ray
+conclusions derived from the experimental results
+
+Project highlight: The repository combines hands-on distributed systems implementation with a documented empirical study, moving beyond implementation to evaluate how the two frameworks behave under different workloads and cluster configurations.
+
 ## Tech Stack
 
 * **Python**
