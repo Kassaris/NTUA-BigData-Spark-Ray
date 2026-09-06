@@ -345,13 +345,6 @@ Triangle Counting evaluates another common graph-processing workload.
 
 A triangle exists when three vertices are mutually connected:
 
-```text
-A ───── B
- \     /
-  \   /
-    C
-```
-
 The experiment measures the frameworks' ability to process graph relationships and identify triangles across increasingly large graph datasets.
 
 This workload is useful for comparing distributed graph-processing behavior because it requires significantly different data access patterns from PageRank.
