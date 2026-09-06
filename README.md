@@ -23,9 +23,9 @@ Beyond implementing the distributed workloads, we conducted a structured experim
 
  ## Technical Report
 
-As part of the project, we authored a technical mini-paper presenting the experimental methodology, benchmark setup, results and analysis of the Spark–Ray comparison.
+As part of the project, we authored a technical report documenting the **experimental methodology, benchmark results, scalability analysis, and conclusions** of our Spark–Ray comparison.
 
-Read the full Technical Report (PDF)
+### [Read the full Technical Report (PDF)](documents/bigdata_28_03119144_03119188.pdf)
 
 The report complements the source code by documenting the complete experimental process:
 
