@@ -62,21 +62,6 @@ Experiments were executed on **5 virtual machines**, each configured with:
 * **4 CPU cores**
 * **8 GB RAM**
 
-```text
-                     Head Node
-                  4 CPU · 8 GB
-                       │
-          ┌────────────┼────────────┐
-          │            │            │
-          ▼            ▼            ▼
-      Worker 1     Worker 2     Worker 3
-     4 CPU · 8GB  4 CPU · 8GB  4 CPU · 8GB
-                                    │
-                                    ▼
-                                Worker 4
-                               4 CPU · 8GB
-```
-
 Spark uses **HDFS + YARN** for distributed storage and resource management.
 
 Ray runs as a distributed cluster consisting of a **head node and worker nodes**.
